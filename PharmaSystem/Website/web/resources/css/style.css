@@ -1,0 +1,48 @@
+
+body{
+    text-align: center;
+}
+.headerclass{
+    color: rgba(176, 59, 80, 1);
+    font-size: 22px;
+    margin: 5px;
+    padding: 5xp;
+}
+.input{
+    margin: 3px;
+    padding: 3px;
+}
+.logtext{
+    margin: 3px;
+}
+.comml{
+    color: rgba(198, 12, 98, 1);
+    text-transform: none;
+    text-decoration: none; 
+}
+.comml:hover{
+    color: rgba(135, 8, 67, 1);  
+}
+.comm{
+    padding: 3px 20px;
+    margin: 3px;
+}
+.table{
+    border:  none;
+    margin: 7px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.htable{
+    padding: 7px;
+    background: rgba(125, 18, 82, 0.45);
+    color: white;
+}
+.r1table{
+    background: rgba(249, 249, 215, 1);
+    padding: 4px;
+}
+.r2table{
+    backface : rgba(249, 235, 215, 1);
+    padding: px;
+}

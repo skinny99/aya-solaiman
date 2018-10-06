@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>PMS - home</title>
+        <h:outputStylesheet library="css" name="style.css"/>
+    </h:head>
+    <h:body>
+        <h:outputLabel value="Prouduct list" class="headerclass" />
+        <br/><br/>
+        <h:form>
+        <h:dataTable styleClass="table" headerClass="htable" rowClasses="r1table,r2table" value="#{remove.list}" var="x" >
+            <h:column> <f:facet name="header">Product ID</f:facet> #{x.id} </h:column>
+            <h:column> <f:facet name="header">Product name</f:facet> #{x.name}</h:column>
+            <h:column> <f:facet name="header">Price</f:facet> #{x.price}</h:column>
+            <h:column> <f:facet name="header">expiration date</f:facet> #{x.exdate}</h:column>
+            <h:column> <f:facet name="header">quantity</f:facet> #{x.quantity}</h:column>
+            <h:column> 
+                <f:facet name="header">remove</f:facet> 
+                <h:commandButton accesskey="r" value="remove" action="#{remove.DoRemove(x.id)}"/>
+            </h:column>
+        </h:dataTable>
+            <br/>
+        </h:form>
+        <h:form>
+            <h:commandButton styleClass="comm" accesskey="h" value="home" action="home"/>
+            <h:commandButton styleClass="comm" accesskey="a" value="add product" action="addproduct"/>
+            <h:commandButton styleClass="comm" accesskey="s" value="sell" action="sell"/>
+            <h:commandButton styleClass="comm" accesskey="u" value="update" action="update"/>
+            <h:commandButton styleClass="comm" accesskey="l" value="Logout" action="Logout"/>
+        </h:form>
+    </h:body>
+</html>
+

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>PMS - add product</title>
+        <h:outputStylesheet library="css" name="style.css"/>
+    </h:head>
+    <h:body>
+        <h:outputLabel value="PMS - add Prouduct" class="headerclass" />
+        
+        <br/><br/>
+        
+        <h:form>
+            <table border="0" class="table">
+                <tbody>
+                    <tr>
+                        <td><h:outputLabel value="Product ID : " class="logtext" /></td>
+                        <td><h:inputText value="#{addProducts.id}" required="true" styleClass="input"
+                       requiredMessage="id is required" accesskey="i"/></td>
+                    </tr>
+                    <tr>
+                        <td><h:outputLabel value="Product name : " class="logtext" /></td>
+                        <td><h:inputText value="#{addProducts.name}" required="true" styleClass="input"
+                       requiredMessage="name is required"  accesskey="n"/></td>
+                    </tr>
+                    <tr>
+                        <td><h:outputLabel value="Product Price : " class="logtext" /></td>
+                        <td><h:inputText value="#{addProducts.price}" required="true" styleClass="input"
+                       requiredMessage="price is required"  accesskey="p"/></td>
+                    </tr>
+                    <tr>
+                        <td><h:outputLabel value="expiration date : " class="logtext" /></td>
+                        <td><h:inputText value="#{addProducts.exdate}" required="true" styleClass="input"
+                       requiredMessage="date is required" accesskey="e"/></td>
+                    </tr>
+                    <tr>
+                        <td><h:outputLabel value="quantity : " class="logtext" /></td>
+                        <td><h:inputText value="#{addProducts.quantity}" required="true" styleClass="input"
+                       requiredMessage="quantity is required" accesskey="q"/></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h:commandButton styleClass="comm" accesskey="a" value="add product" action="#{addProducts.DoADD}"/>
+        </h:form>
+        
+        <br/><br/>
+        
+        <h:form>
+            <h:commandButton styleClass="comm" accesskey="h" value="home" action="home"/>
+            <h:commandButton styleClass="comm" accesskey="s" value="sell" action="sell"/>
+            <h:commandButton styleClass="comm" accesskey="u" value="update" action="update"/>
+            <h:commandButton styleClass="comm" accesskey="d" value="delete" action="delete"/>
+            <h:commandButton styleClass="comm" accesskey="l" value="Logout" action="Logout"/>
+        </h:form>
+    </h:body>
+</html>
+

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>PMS - sold products</title>
+        <h:outputStylesheet library="css" name="style.css"/>
+    </h:head>
+    <h:body>
+        <h:outputLabel value="sold products" class="headerclass" />
+        <br/><br/>
+        <h:form>
+            <h:dataTable styleClass="table" headerClass="htable" rowClasses="r1table,r2table" value="#{sold.list}" var="x" >
+            <h:column> <f:facet name="header">Product ID</f:facet> #{x.id} </h:column>
+            <h:column> <f:facet name="header">Product name</f:facet> #{x.name}</h:column>
+            <h:column> <f:facet name="header">quantity</f:facet> #{x.quantity}</h:column>
+        </h:dataTable>
+        </h:form>
+        <br/><br/>
+        <h:form>
+            <h:commandButton styleClass="comm"  accesskey="d" value="home" action="home"/>
+            <h:commandButton styleClass="comm"  accesskey="s" value="back to sell" action="sell"/>
+            <h:commandButton styleClass="comm"  accesskey="l" value="Logout" action="Logout"/>
+        </h:form>
+    </h:body>
+</html>
+

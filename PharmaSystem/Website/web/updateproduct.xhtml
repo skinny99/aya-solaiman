@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>PMS - update products</title>
+        <h:outputStylesheet library="css" name="style.css"/>
+    </h:head>
+    <h:body>
+        <h:outputLabel class="headerclass"  value="Enter updated data .."/>
+        <br/>
+        <br/>
+        <h:form>
+            <table border="0" class="table">
+                <tbody>
+                    <tr>
+                        <td><h:outputLabel value="Product ID : " class="logtext" /></td>
+                        <td> <h:inputText  styleClass="input" value="#{updateProducts.newProductid}" required="true" accesskey="i"/></td>
+                    </tr>
+                    <tr>
+                        <td><h:outputLabel value="Product name : " class="logtext" /></td>
+                        <td><h:inputText styleClass="input"  value="#{updateProducts.newName}"  accesskey="n"/></td>
+                    </tr>
+                    <tr>
+                        <td><h:outputLabel value="Product Price : " class="logtext" /></td>
+                        <td><h:inputText styleClass="input"  value="#{updateProducts.newPrice}" accesskey="p"/></td>
+                    </tr>
+                     <tr>
+                        <td><h:outputLabel value="expiration date : " class="logtext" /></td>
+                        <td><h:inputText  styleClass="input" value="#{updateProducts.newExate}"  accesskey="e"/></td>
+                    </tr>
+                     <tr>
+                        <td><h:outputLabel value="quantity : " class="logtext" /></td>
+                        <td><h:inputText styleClass="input"  value="#{updateProducts.newQuantity}"  accesskey="q"/></td>
+                    </tr>
+                  
+                </tbody>
+            </table>
+            <h:commandButton styleClass="comm" accesskey="a" value="get" action="#{updateProducts.get}"/>
+            <h:commandButton styleClass="comm" accesskey="a" value="update" action="#{updateProducts.DoUpdate}"/>
+            <h:button styleClass="comm" accesskey="r" value="Reset" />
+        </h:form>
+        <br/>
+
+        <br/>
+        <h:form>
+            <h:commandButton styleClass="comm" accesskey="h" value="home" action="home"/>
+            <h:commandButton styleClass="comm" accesskey="a" value="add product" action="addproduct"/>
+            <h:commandButton styleClass="comm" accesskey="s" value="sell" action="sell"/>
+            <h:commandButton styleClass="comm" accesskey="d" value="delete" action="delete"/>
+            <h:commandButton styleClass="comm" accesskey="l" value="Logout" action="Logout"/>
+        </h:form>
+    </h:body>
+</html>
+
