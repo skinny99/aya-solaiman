@@ -1,0 +1,465 @@
+.option1:hover{
+    background-color: #7e516f;
+}
+
+.option2 {
+    background-color: rgb(64, 64, 64);
+    position: absolute;
+    left: 617px;
+    top: 0px;
+    width: 37px;
+    height: 25px;
+    font-family: arialItalic;
+    font-size: 30px;
+    color:white;
+    display: none;
+}
+
+.wendyrec {
+    background-color: #9f6e8f;
+    position: fixed;
+    left: 205px;
+    top: 623px;
+    width: 963px;
+    height: 39px;
+}
+
+.smallwendyrec {
+    background-color: #9f6e8f;
+    position: absolute;
+    left: 740px;
+    top: 0px;
+    width: 223px;
+    height: 39px;
+}
+
+.speaker1 {
+  background:url(/images/Speaker2.png);
+  position: absolute;
+  left: 662px;
+  top: 8px;
+  width: 19px;
+  height: 24px;
+}
+
+.photo1 {
+  background:url(/images/photo_w2.png);
+  position: absolute;
+  left: 611px;
+  top: 9px;
+  width: 26px;
+  height: 24px;
+}   
+
+.header {
+  background-color: #7e516f;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 45px;
+}
+
+.Box_1{
+	background-color:#7e516f;
+	width: 102px;
+	height: 38px;
+	position: absolute;
+	left: 0px;
+	top: 266px;
+}
+
+.Box_2{
+    background-color: #9f6e8f;
+    width: 60px;
+    height: 38px;
+    position: absolute;
+    left: 68px;
+    top: 266px;
+}
+
+.Box_3{
+	background-color:#9f6e8f;
+	width: 103px;
+    height: 38px;
+    position: absolute;
+    left: 102px;
+    top: 266px;
+}
+
+.friends_ico{
+    background: url('/images/friends_b2.png');
+    width: 42px;
+    height: 40px;
+    position: absolute;
+    left: 34px;
+    top:64px;
+}
+
+.friends_box{
+    border-radius: 0 10px 10px 10px;
+    background-color: #7e516f;
+    position: absolute;
+    width: 60px;
+    top: 53px;
+    left: 25px;
+    height: 62px;
+    opacity: 0;
+}
+
+.posts_ico{
+    background: url(/images/posts_b2.png);
+    width: 29px;
+    height: 46px;
+    position: absolute;
+    right: 45px;
+    top: 59px;
+}
+
+.posts_box{
+    border-radius: 0 10px 10px 10px;
+    background-color: #7e516f;
+    position: absolute;
+    width: 60px;
+    top: 53px;
+    right: 32px;
+    height: 62px;
+    opacity: 0;
+}
+
+.events_box{
+    border-radius: 0 10px 10px 10px;
+    background-color: #7e516f;
+    position: absolute;
+    width: 60px;
+    top: 178px;
+    left: 25px;
+    height: 64px;
+    opacity: 0;
+}
+
+.games_box{
+    border-radius: 0 10px 10px 10px;
+    background-color: #7e516f;
+    position: absolute;
+    width: 60px;
+    top: 183px;
+    left: 116px;
+    height: 64px;
+    opacity: 0;
+}
+
+.logo{
+    background: url(/images/bb_logo2.png);
+    width: 144px;
+    height: 32px;
+    position: absolute;
+    left:32px;
+    top: 6.2px;
+}
+
+.logout_box {
+    background-color: #9f6e8f;
+    position: absolute;
+    right: 4px;
+    top: 0px;
+    width: 192px;
+    height: 45px;
+    display: none;
+}
+
+.shortcutBox{
+    background-color: transparent;
+    position: absolute;
+    left: 270px;
+    top: 0px;
+    width: 56px;
+    height: 45px;
+    font-family: arialItalic;
+    font-size: 32px;
+    color:#a97f9b;
+    text-align: center;
+    cursor: default;
+}
+
+.popup {
+  background-color: #d8c0de;
+  box-shadow: 0px 4px 8px 0px rgba(92, 149, 170, 0.004);
+  position: absolute;
+  left: 270px;
+  top: 126px;
+}
+
+.friendsICO{
+    background: url(/images/friendsIco2.png);
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 36px;
+    height: 21px;
+}
+
+.notificationsICO{
+    background: url(/images/notificationsIco2.png);
+    margin-left: 11.5px;
+    margin-top: 6px;
+    width: 33px;
+    height: 33px;
+}
+
+.chatICO{
+    background: url(/images/chatIco2.png);
+    margin-left: 14px;
+    margin-top: 12px;
+    width: 29px;
+    height: 23px;
+}
+
+.elearningICO{
+    background: url(/images/elearningIco2.png);
+    margin-left: 10.5px;
+    margin-top: 10.5px;
+    width: 35px;
+    height: 24px;
+}
+
+.eventsICO{
+    background: url(/images/eventsIco2.png);
+    margin-left: 15px;
+    margin-top: 8.5px;
+    width: 26px;
+    height: 26px;
+}
+
+.groupsICO{
+    background: url(/images/groupsIco2.png);
+    margin-left: 7.5px;
+    margin-top: 12.5px;
+    width: 41px;
+    height: 20px;
+}
+
+.gamesICO{
+    background: url(/images/gamesIco2.png);
+    margin-left: 12px;
+    margin-top: 9px;
+    width: 34px;
+    height: 27px;
+}
+
+.postsICO{
+    background: url(/images/postsIco2.png);
+    margin-left: 15.5px;
+    margin-top: 9px;
+    width: 25px;
+    height: 27px;
+}
+
+.post_box{
+	background-color: rgb(232, 232, 232);
+	width: 360px;
+	height: 153px;
+	position: absolute;
+	top: 38px;
+	left: 213px;
+	border-radius: 0px 18px 18px 18px;
+	overflow: hidden;
+}
+
+.post_btn{
+	background-color: #7e516f;
+  	position: absolute;
+	width: 103px;
+	height: 33px;
+	bottom: 0px;
+	right:0px;
+	border-radius: 0px 0px 18px 0px;
+	text-align: center;
+	font-family: arialNarrow;
+	font-size: 19px;
+	cursor: default;
+    opacity: 1;
+}
+
+.post_setting_btn{
+	background-color: #9f6e8f;
+  	position: absolute;
+  	width: 39px;
+  	height: 33px;
+	left: 218px;
+  	bottom: 0px;
+	
+}
+
+.postSettings_box{
+    border-radius: 0px 18px 18px 18px;
+    background-color: #9f6e8f;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+	width: 360px;
+	height: 153px;
+    display: none;
+}
+
+.postSettings_option{
+    border-radius: 9.5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7e516f;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 158px;
+    height: 22px;
+    font-family: arialBold;
+    font-size:13px;
+    left: 15px;
+    color: #7e516f;
+}
+
+.change_btn {
+    border-radius: 0px 9px 9px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7e516f;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 58px;
+    height: 22px;
+    font-family: arialBold;
+    font-size: 13px;
+    color: #404040;
+}
+
+.change_btn:hover{
+    background-color: #7e516f;
+    color:white;
+}
+
+.cameraIcon{
+    background: url(/images/cameraIcon2.png);
+    width: 44px;
+    height: 27px;
+    position: absolute;
+    left: 13px;
+    top: 21.5px;
+}
+
+.cameraBtn_1 {
+  background-color: #7e516f;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  width: 160px;
+  height: 35px;
+    font-family: arialBold;
+    font-size: 20px;
+    color: white;
+    display: none;
+    left: 380px; 
+    top:565px;
+}
+
+.cameraBtn_1:hover,.cameraBtn_2:hover{
+    color: #7e516f;
+    background-color: white; 
+}
+
+.cameraBtn_2 {
+  background-color: #7e516f;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  width: 95px;
+  height: 35px;
+    font-family: arialBold;
+    font-size: 20px;
+    color: white;
+    right: 475px; 
+    top:565px;
+    display: none;
+}
+
+.personTag:hover{
+   background-color: #d8c0de; 
+}
+
+.glogo_line{
+	  border-radius: 2px;
+	  background-image: -moz-linear-gradient( 0deg, #a3628d 0%, #d89ec5 100%);
+	  background-image: -webkit-linear-gradient( 0deg, #a3628d 0%, #d89ec5 100%);
+	  background-image: -ms-linear-gradient( 0deg, #a3628d 0%, #d89ec5 100%);
+	  position: absolute;
+	  left: 0px;
+	  top: 60px;
+	  width: 176px;
+	  height: 4px;
+}
+
+.colorMain{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: #9f6e8f;
+    position: absolute;
+    width: 29px;
+    height: 30px;
+    top: 5px;
+    right: 214px;
+    overflow: hidden;
+}
+
+.colorHeader{
+  background-color: #7e516f;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 31px;
+  height: 16px;
+}
+
+.gameTitle1{
+    font-size: 20px; 
+    font-family: arialBold; 
+    position: absolute; 
+    left:71px; 
+    top:17px;
+    color: #a66691;
+}
+
+.gameTitle2{
+    font-size: 18px; 
+    font-family: arialNarrow; 
+    position: absolute; 
+    margin-left:7px; 
+    top: 2px; 
+    color: #d79ec5;
+}
+
+.chatMsgBox{
+    color:#7e516f;
+}
+
+.chatSendBtn:hover{
+    background-color:#7e516f;
+    color:white;
+}
+
+
+.saveProfileBtn{
+    width: 102.5px;
+    height: 25px;
+    margin-top: 38px;
+    background-color: #7e516f;
+}
+
+input{
+    color:#7e516f;
+}
+
+.friendBG:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7e516f;
+}
